@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- * Description: a program that prints all possible combinations of two two-digit numbers
+ * main - main block
+ * Description: prints all possible combinations of two two-digit numbers
  * Return: 0
  */
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 			f_d2 = (c2 / 10 + '0');
 			l_d2 = (c2 % 10 + '0');
 
-			if (c , c2)
+			if (c < c2)
 			{
 				putchar(f_d);
 				putchar(l_d);
